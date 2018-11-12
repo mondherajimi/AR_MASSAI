@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<title>RelaxAir</title>
+  <style type="text/css">
+    #container {
+        position: absolute;
+        width: 960px;
+        height: 640px;
+        outline: 3px solid #000;		
+		left:50%; margin-left:-480px; margin-top:-320px;  top:50%; width:960px;
+    }
+	  #canvas {
+        position: absolute;
+        width: 960px;
+        height: 640px;		
+		left:50%; margin-left:-480px; margin-top:-320px;  top:50%; width:960px;
+    }
+    </style>
+	
+<script src="js/jquery-1.9.1.min.js"></script>
+<script src="js/compatibility.js"></script>
+<script type="text/javascript" src="js/raphael.js"></script> 
+   
+</head>
+
+<body onload="cam();">
+
+<canvas id="canvas"></canvas>
+<div id="container"></div>
+ 
+<script src="js/ccv.js"></script>
+<script src="js/face.js"></script>		 
+<script src="js/main.js"></script>
+
+</body>
+</html>
